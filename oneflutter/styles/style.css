@@ -9,6 +9,7 @@
 	padding: 25px 80px;
 	display: inline-block;
 	margin: 15px 30px;
+	box-shadow: 4px 4px 15px rgba(0,0,0,0.1);
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: 700;
@@ -30,7 +31,7 @@
 /* Button 6 */
 .btn-6 {
 	color: #fff;
-	background: #226fbe;
+	background: #00b894;
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
@@ -41,11 +42,11 @@
 }
 /* Button 6l */
 .btn-6l {
-	border: 4px double #226fbe;
+	border: 4px double #00b894;
 	border-radius: 60px;
 }
 
 .btn-6l:hover {
 	background: transparent;
-	color: #226fbe;
+	color: #00b894;
 }
