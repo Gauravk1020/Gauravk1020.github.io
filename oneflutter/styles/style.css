@@ -1,54 +1,26 @@
 .half {
 	width: 50%;
 }
-.btn {
-	border: none;
-	font-family: inherit;
-	font-size: inherit;
-	color: inherit;
-	background: none;
-	cursor: pointer;
-	padding: 25px 80px;
-	display: inline-block;
-	margin: 15px 30px;
-  box-shadow: 4px 4px 15px rgba(0,0,0,0.1);
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	font-weight: 700;
-	outline: none;
-	position: relative;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
+.btn-1 {
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    width: 50%;
+    height: 70px;
+    color: #00b894;
+    background: #fff;
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    border: 4px double #00b894;
+    border-radius: 100px;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.1);
 }
 
-.btn:after {
-	content: '';
-	position: absolute;
-	z-index: -1;
-	-webkit-transition: all 0.3s;
-	-moz-transition: all 0.3s;
-	transition: all 0.3s;
-}
-/* Button 6 */
-.btn-6 {
-	color: #fff;
-	background: #00b894;
-	-webkit-transition: none;
-	-moz-transition: none;
-	transition: none;
+.btn-1:active {
+    top: 2px;
 }
 
-.btn-6:active {
-	top: 2px;
-}
-/* Button 6l */
-.btn-6l {
-	border: 4px double #00b894;
-	border-radius: 60px;
-}
-
-.btn-6l:hover {
-	background: transparent;
-	color: #00b894;
+.btn-1:hover {
+    box-shadow: none;
 }
